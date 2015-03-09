@@ -1,10 +1,17 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
+@import url(https://fonts.googleapis.com/css?family=Old+Standard+TT:400,400italic,700);
 
 body {
-  padding:50px;
-  font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#777;
-  font-weight:300;
+  font:14px/1.4 'Old Standard TT', serif;
+  color:#888;
+  background-color: #fcfcfd;
+  font-weight:400;
+  background-clip: border-box;
+}
+
+
+td pre.line-pre div.line, td.line-numbers span.line-number {
+  font-size: 10px !important;
+  line-height: 1.4 !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -96,9 +103,7 @@ img {
 }
 
 header {
-  width:270px;
-  float:left;
-  position:fixed;
+  background-clip: border-box;
 }
 
 header ul {
@@ -160,9 +165,12 @@ header ul a strong {
 }
 
 section {
+  background-color: inherit;
   width:500px;
-  float:right;
   padding-bottom:50px;
+  background-clip: border-box;
+  background-color: inherit;
+  z-index: 1000;
 }
 
 small {
@@ -177,10 +185,14 @@ hr {
 }
 
 footer {
-  width:270px;
+  width:100%;
   float:left;
   position:fixed;
-  bottom:50px;
+  bottom:0px;
+  padding-bottom: 5px;
+  opacity: 1;
+  background-color: #fcfcfd;
+  background-clip: padding-box;
 }
 
 @media print, screen and (max-width: 960px) {
@@ -192,8 +204,18 @@ footer {
   
   header, section, footer {
     float:none;
-    position:static;
     width:auto;
+  } 
+  
+  footer {
+    width:100%;
+  	float:left;
+    position:fixed;
+    bottom:0px;
+    padding-bottom: 5px;
+    opacity: 1;
+    background-color: #fcfcfd;
+    background-clip: padding-box;
   }
   
   header {
@@ -201,8 +223,8 @@ footer {
   }
   
   section {
-    border:1px solid #e5e5e5;
-    border-width:1px 0;
+    /*border:1px solid #e5e5e5;
+    border-width:1px 0; */
     padding:20px 0;
     margin:0 0 20px;
   }

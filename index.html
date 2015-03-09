@@ -1,38 +1,40 @@
+---
+title: ZTJ
+---
 <!doctype html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Zachery Jensen by ztj</title>
-
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>Zachery Jensen</h1>
-        <p>I make software, and so forth.</p>
-
-
-        <p class="view"><a href="https://github.com/ztj">View My GitHub Profile</a></p>
-
-      </header>
-      <section>
-        <h3>
-<a name="coming-soon" class="anchor" href="#coming-soon"><span class="octicon octicon-link"></span></a>Coming soon...</h3>
-
-<p>Until then, find me on Twitter <a href="http://twitter.com/ztjio">@ztjio</a>.</p>
-      </section>
-      <footer>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
-    </div>
-    <script src="javascripts/scale.fix.js"></script>
-    
-  </body>
+    <head>
+        <link rel="stylesheet" href="{{ site.url }}/stylesheets/styles.css"/>
+        <link rel="stylesheet" href="{{ site.url }}/stylesheets/pygment_trac.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+        <meta charset="utf-8">
+        <title>{{ page.title }}</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <header>
+                {% include header.html %}
+            </header>
+            <section>
+                <p>Don't expect anything fancy here any time soon. Hyperlinks of potential interest follow.</p>
+                <ul>
+                    <li><em>Twitter</em> <a href="http://twitter.com/ztjio">@ztjio</a></li>
+                    <li><em>Flickr</em> <a href="http://flic.kr/zacheryjensen">http://flic.kr/zacheryjensen</a></li>
+                    <li><em>GitHub</em> <a href="https://github.com/ztj">ztj on GitHub</a></li>
+                    <li><em>Gists</em> <a href="https://gist.github.com/ztj">my gists</a></li>
+                </ul>
+                
+                <ul>
+  					{% for post in site.posts %}
+    				<li>
+      					Post ({{ post.date }})&nbsp;<a href="{{ post.url }}">{{ post.title }}</a>
+    				</li>
+  					{% endfor %}
+				</ul>
+            </section>
+            <footer>
+                {% include footer.html %}
+            </footer>
+        </div>
+    </body
 </html>
