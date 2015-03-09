@@ -1,11 +1,13 @@
 ---
-title: ZTJ
+title: Main
+navigation: 10
 ---
 <!doctype html>
 <html>
     <head>
         <link rel="stylesheet" href="{{ site.url }}/stylesheets/styles.css"/>
         <link rel="stylesheet" href="{{ site.url }}/stylesheets/pygment_trac.css"/>
+        <script src="{{ site.url}}/javascripts/jquery-2.1.3.min.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
         <meta charset="utf-8">
         <title>{{ page.title }}</title>
@@ -15,22 +17,13 @@ title: ZTJ
             <header>
                 {% include header.html %}
             </header>
-            <section>
+            <section style="padding-top:20px;">
                 <p>Don't expect anything fancy here any time soon. Hyperlinks of potential interest follow.</p>
                 <ul>
-                    <li><em>Twitter</em> <a href="http://twitter.com/ztjio">@ztjio</a></li>
-                    <li><em>Flickr</em> <a href="http://flic.kr/zacheryjensen">http://flic.kr/zacheryjensen</a></li>
-                    <li><em>GitHub</em> <a href="https://github.com/ztj">ztj on GitHub</a></li>
-                    <li><em>Gists</em> <a href="https://gist.github.com/ztj">my gists</a></li>
+                    <li><a href="http://twitter.com/ztjio">@ztjio</a> <small>on Twitter</small></li>
+                    <li><a href="http://flic.kr/zacheryjensen">Flickr</a></li>
+                    <li><a href="https://github.com/ztj">GitHub profile</a><small> &amp; </small><a href="https://gist.github.com/ztj">gists</a></li>
                 </ul>
-                
-                <ul>
-  					{% for post in site.posts %}
-    				<li>
-      					Post ({{ post.date }})&nbsp;<a href="{{ post.url }}">{{ post.title }}</a>
-    				</li>
-  					{% endfor %}
-				</ul>
             </section>
             <footer>
                 {% include footer.html %}
