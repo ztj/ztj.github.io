@@ -28,7 +28,7 @@ terms of specs and provided to me by my employer. I also never take it anywhere.
 Despite being light for its class, it's still a burden to lug around when I
 know I'm never going to use it outside of the office. 
 
-'I don't require a notebook of my own. However, I, like most people, 
+I don't require a notebook of my own. However, I, like most people, 
 tend to do personal things while at work. I
 prefer not to do too much personal stuff on work property. You never know what
 kind of data mixups may happen and it's generally good to keep a clear separation
