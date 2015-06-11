@@ -19,13 +19,17 @@ and this notebook exemplifies this.
 
 Of course, people who actually write reviews of technology products are probably
 the very worst people to make these observations. Tech writers have anything
-but a typical user profile and so their commentary is almost universaly worthless.
+but a typical user profile and so their commentary is almost universally worthless.
 
 So, where do I stand on this device? Well, for the past couple of years, I have
 toted around an iPad Mini or iPad Air to act as a kind of portable personal space
 in the computing world. I have a MacBook Pro 15" w/Retina that is maxed out in
-terms of specs and provided to me by my employer. I don't require a notebook of my
-own. However, I, like most people, tend to do personal things while at work. I
+terms of specs and provided to me by my employer. I also never take it anywhere.
+Despite being light for its class, it's still a burden to lug around when I
+know I'm never going to use it outside of the office. 
+
+'I don't require a notebook of my own. However, I, like most people, 
+tend to do personal things while at work. I
 prefer not to do too much personal stuff on work property. You never know what
 kind of data mixups may happen and it's generally good to keep a clear separation
 between those worlds. So I carried my iPad along with a keyboard case to sort
