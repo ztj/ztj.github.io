@@ -33,7 +33,7 @@ typing on such a keyboard as they were incredibly prevalent all throughout the e
 
 In fact, only the lowest quality keyboards used anything without a major hitched, long travel click emulating
 the feel of an old fashioned mechanical lever typewriter. That is, until notebook computers began taking over
-the landscape. For a long time, notebook designers seeked to emulate this feeling as much as they could. They
+the landscape. For a long time, notebook designers tried to emulate this feeling as much as they could. They
 never really managed to emulate the hitched click, but, they did often brag of their key travel, which was
 really only relevant when comparing to the emulated keyboards, as the real typewriter key travel was immense.
 
@@ -42,7 +42,7 @@ important. And an even stronger trend was influencing notebook design: passive u
 laptops and rarely typing on them compared to past computer use. The heavy favoring of the mouse in user
 interfaces, and the shift to consumption of data rather than the production of it as the primary use case
 for the modern personal computer allowed designers to begin to ignore the 100+ year old typewriter as a basis
-for good user experiene design.
+for good user experience design.
 
 Keyboard keys became flatter, traveled less distance, and felt mushy all in an effort to reduce cost, as well
 as reduce the space they consumed.
@@ -56,7 +56,7 @@ keyboards for one main reason: I was a touch typist. A *touch* typist. The less 
 performing a single keystroke, the faster I could move through the entire set of keystrokes I had to make.
 
 Key travel had become my enemy and I was highly aware of it. I began to seek out notebook style keyboards for
-use on the desktop. And happily, at the same time, companies like Logtiech began producing them usually in
+use on the desktop. And happily, at the same time, companies like Logitech began producing them usually in
 association with video game consoles and use on the couch. I didn't care. I bought them and used them on my 
 desktop computers. I was hooked.
 
@@ -67,12 +67,12 @@ same time.
 So here we are, 2015, and the first major bottom-up redesign of the mechanics of a notebook keyboard in over
 a decade has been made. It's divisive, as you no doubt will have noticed by reading reviews of this notebook.
 I love it. They key travel is incredibly short while maintaining enough feedback with a positive, but quite
-efficient, click at the perfet point in the key travel. If it clicked, you pressed it and if it didn't, you
+efficient, click at the perfect point in the key travel. If it clicked, you pressed it and if it didn't, you
 hadn't. Simple as that. It doesn't require significant effort to click the key, and thus, a touch typist
 can increase their efficiency and move even more quickly through the strokes.
 
 I just hope it is as durable as Apple's design video makes it seem. I also dream of a day when I can buy
-a new Apple Wireless Keyboard for my iMac which has the same desgn, including the excellent per-key LED
+a new Apple Wireless Keyboard for my iMac which has the same design, including the excellent per-key LED
 backlighting.
 
 ### Pointing ###
@@ -114,7 +114,7 @@ to continue a long drag operation. This is how I use the trackpad. If not for th
 with tap to click, I think I would probably go a little crazy.
 
 Now, that said, with the new force touch trackpad in the new MacBook, I am finding it far more enjoyable than
-ever to actually "press" to click, since one can set the sensitivy to require only a light press and the 
+ever to actually "press" to click, since one can set the sensitivity to require only a light press and the 
 pressure required to press is consistent across the entire trackpad. I still prefer three finger drag
 for most drag operations, but, a short drag can easily be accomplished with a regular click.
 
@@ -156,7 +156,7 @@ habit...
 ### Work ###
 
 Can I do my daily work on this thing? It's not why I bought it, of course. The actual reason I bought it was
-to replace my iPad. It had become quite clear that I wanted my iPad to be slighlty more than it was. In my
+to replace my iPad. It had become quite clear that I wanted my iPad to be slightly more than it was. In my
 daily habitual use of the iPad, I had come to universally place it in its unfolded keyboard tray and use it
 like a tiny notebook computer anyway. I would perform my personal web browsing, and take breaks to toy
 around with my personal side projects and software developer curios. I would prefer to use it for communicating
@@ -164,7 +164,7 @@ with my family and friends outside the office.
 
 But wait, software development on the iPad? Well, yes and no. There are some limited tools for this. But, 
 most often, it was a matter of using the iPad as an SSH terminal and working on my computer at home with it.
-That was hardly satifsying. I actually began designing what might be considered a thin client IDE for the iPad
+That was hardly satisfying. I actually began designing what might be considered a thin client IDE for the iPad
 which would depend heavily on a remote computer for the heavy lifting, but, keep all of the files and a
 very response local editor in the programmer's hands for efficient work on an iPad. But, seriously, have you 
 any idea the immense amount of work that goes into developing and maintaining a text editor, let alone a
@@ -182,7 +182,7 @@ intend to make this my primary computer for software development. I will still u
 for those tasks that are just not well suited to this ultraportable beauty. One day, I intend to put
 some serious effort into merging local and remote working spaces—essentially leveraging the endless power
 in the cloud—for enhancing my capabilities with this computer alone. For now, and for the projects I expert to
-work on in the foreseeable future, I believe I will actually be able to be very producting with this computer.
+work on in the foreseeable future, I believe I will actually be very productive with this computer.
 
 That's super exciting to me. I love being able to do my job on a ridiculously tiny device. Sure, it's not like
 I'm writing massive data analysis frameworks on my iPhone, but, it still comes off as such a minimalist 
@@ -191,7 +191,7 @@ to work during the weekend—which I almost never do.
 
 ### In Closing ###
 
-So there you have it. The reason this notebook is so great for me lies largely in the way its capabiltiies
+So there you have it. The reason this notebook is so great for me lies largely in the way its capabilities
 and physical attributes relate to my personal computer use habits. I suspect the same is the case of any
 other person and their products of choice. However, I also strongly suspect that in some cases, a person
 may benefit from really taking stock in their habits and maybe changing some to better fit the gear they
