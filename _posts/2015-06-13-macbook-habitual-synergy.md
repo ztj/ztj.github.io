@@ -165,14 +165,14 @@ with my family and friends outside the office.
 But wait, software development on the iPad? Well, yes and no. There are some limited tools for this. But, 
 most often, it was a matter of using the iPad as an SSH terminal and working on my computer at home with it.
 That was hardly satisfying. I actually began designing what might be considered a thin client IDE for the iPad
-which would depend heavily on a remote computer for the heavy lifting, but, keep all of the files and a
-very response local editor in the programmer's hands for efficient work on an iPad. But, seriously, have you 
+which would depend greatly on a remote computer for the heavy lifting, but, keep all of the files and a
+very responsive local editor in the programmer's hands for efficient work on an iPad. But, seriously, have you 
 any idea the immense amount of work that goes into developing and maintaining a text editor, let alone a
 programmer friendly editor—never mind a full IDE! I couldn't possibly find the time and I don't believe the
 world is ready to pay fair price for such an app yet either.
 
 Luckily the MacBook was announced right as I was having this epiphany. I sold the iPad and waited months to
-get my hands on this little beast. I focused on setting it up to offer me the best media, browsing, and 
+get my hands on this small wonder. I focused on setting it up to offer me the best media, browsing, and 
 communication experience as a sidekick on my desk at work and elsewhere. But, I had to see what it could
 do in terms of actual real work.
 
@@ -181,8 +181,8 @@ to report that I am certainly able to do my job with this notebook. So comfortab
 intend to make this my primary computer for software development. I will still utilize my heavy duty machines
 for those tasks that are just not well suited to this ultraportable beauty. One day, I intend to put
 some serious effort into merging local and remote working spaces—essentially leveraging the endless power
-in the cloud—for enhancing my capabilities with this computer alone. For now, and for the projects I expert to
-work on in the foreseeable future, I believe I will actually be very productive with this computer.
+in the cloud—for enhancing my capabilities with this computer alone. For now, and for the projects I expect to
+work on in the foreseeable future, I believe I will actually be very productive with this computer alone.
 
 That's super exciting to me. I love being able to do my job on a ridiculously tiny device. Sure, it's not like
 I'm writing massive data analysis frameworks on my iPhone, but, it still comes off as such a minimalist 
