@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ZTJ.io</title>
+    <link>https://ztj.io/</link>
+    <description>Recent content on ZTJ.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 19 Jul 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ztj.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>F# ASCII Tree</title>
+      <link>https://ztj.io/articles/fs-tree/</link>
+      <pubDate>Thu, 19 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ztj.io/articles/fs-tree/</guid>
+      <description>Recently I&amp;rsquo;ve found myself interested in learning a new programming language. Well, new to me anyway.
+It has been a long time since any particular language both interested me enough to make me want to learn it and simultaneously provided enough immediate utility to allow me to make use of it in my daily work.
+So I&amp;rsquo;ve just begun taking some baby steps into F#. I&amp;rsquo;m primarily interested in the high degree of static analysis and type driven &amp;ldquo;safety&amp;rdquo; features it is capable of.</description>
+    </item>
+    
+  </channel>
+</rss>
