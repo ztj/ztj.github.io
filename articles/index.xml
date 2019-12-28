@@ -1,34 +1,34 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Articles on ZTJ.io</title>
-    <link>https://ztj.io/articles/</link>
-    <description>Recent content in Articles on ZTJ.io</description>
+    <title>Articles on ZTJ.dev</title>
+    <link>https://ztj.dev/articles/</link>
+    <description>Recent content in Articles on ZTJ.dev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 19 Jul 2018 22:17:56 -0600</lastBuildDate>
     
-	<atom:link href="https://ztj.io/articles/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ztj.dev/articles/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Go, Learn Go, et al</title>
-      <link>https://ztj.io/articles/learn-go/</link>
+      <link>https://ztj.dev/articles/learn-go/</link>
       <pubDate>Sun, 02 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://ztj.io/articles/learn-go/</guid>
-      <description>I&amp;rsquo;ve decided to put a more serious effort into learning Go. As a first for me, I plan to try learning this language &amp;ldquo;out loud&amp;rdquo; so to speak, by publishing the sketches and test projects I create during that process. I&amp;rsquo;m not sure if this will have any value long term, but, at the very least it may encourage me to review my work with more scrutiny. If so, then hopefully it will also improve my uptake speed.</description>
+      <guid>https://ztj.dev/articles/learn-go/</guid>
+      <description>I&#39;ve decided to put a more serious effort into learning Go. As a first for me, I plan to try learning this language &amp;ldquo;out loud&amp;rdquo; so to speak, by publishing the sketches and test projects I create during that process. I&#39;m not sure if this will have any value long term, but, at the very least it may encourage me to review my work with more scrutiny. If so, then hopefully it will also improve my uptake speed.</description>
     </item>
     
     <item>
       <title>F# ASCII Tree</title>
-      <link>https://ztj.io/articles/fs-tree/</link>
+      <link>https://ztj.dev/articles/fs-tree/</link>
       <pubDate>Thu, 19 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://ztj.io/articles/fs-tree/</guid>
-      <description>Recently I&amp;rsquo;ve found myself interested in learning a new programming language. Well, new to me anyway.
+      <guid>https://ztj.dev/articles/fs-tree/</guid>
+      <description>Recently I&#39;ve found myself interested in learning a new programming language. Well, new to me anyway.
 It has been a long time since any particular language both interested me enough to make me want to learn it and simultaneously provided enough immediate utility to allow me to make use of it in my daily work.
-So I&amp;rsquo;ve just begun taking some baby steps into F#. I&amp;rsquo;m primarily interested in the high degree of static analysis and type driven &amp;ldquo;safety&amp;rdquo; features it is capable of.</description>
+So I&#39;ve just begun taking some baby steps into F#. I&#39;m primarily interested in the high degree of static analysis and type driven &amp;ldquo;safety&amp;rdquo; features it is capable of.</description>
     </item>
     
   </channel>

@@ -4,13 +4,13 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>F# ASCII Tree // ZTJ.io</title>
+	<title>F# ASCII Tree // ZTJ.dev</title>
 	<meta name="description" content="Your basic web presence and playground. Don&#39;t expect much.">
 	<meta name="author" content="Zachery Jensen">
-	<link rel="stylesheet" href="https://ztj.io/css/style.css">
-	<link rel="stylesheet" href="https://ztj.io/css/syntax.css">
+	<link rel="stylesheet" href="https://ztj.dev/css/style.css">
+	<link rel="stylesheet" href="https://ztj.dev/css/syntax.css">
 	
-	<meta name="generator" content="Hugo 0.52" />
+	<meta name="generator" content="Hugo 0.62.0" />
 </head>
 <body>
 	<div class="wrapper">
@@ -20,7 +20,7 @@
 			<span class="main-title">by Zachery Jensen</span>
 			<nav>
 				<ul>
-					<li><a href="https://ztj.io/">Main</a></li>
+					<li><a href="https://ztj.dev/">Main</a></li>
 					
 					<li>
 						
@@ -54,29 +54,24 @@
 		<article>
 			<h2>F# ASCII Tree</h2>
 			<div>
-				<p>Recently I&rsquo;ve found myself interested in learning a new programming language. Well, new to me anyway.</p>
-
+				<p>Recently I've found myself interested in learning a new programming language. Well, new to me anyway.</p>
 <p>It has been a long time since any particular language both interested me enough to make me
 want to learn it and simultaneously provided enough immediate utility to allow me to
 make use of it in my daily work.</p>
-
-<p>So I&rsquo;ve just begun taking some baby steps into <a href="https://fsharp.org">F#</a>. I&rsquo;m primarily interested in the
+<p>So I've just begun taking some baby steps into <a href="https://fsharp.org">F#</a>. I'm primarily interested in the
 high degree of static analysis and type driven &ldquo;safety&rdquo; features it is capable of. I have also
 grown more and more fond of, well, non-OOP development styles over the last 5-6 years. And while
-I&rsquo;m no functional programming zealot, I think the FP concepts better align with my own philosophy
+I'm no functional programming zealot, I think the FP concepts better align with my own philosophy
 than classical OOP concepts.</p>
-
 <p>So with that said, here is a terribly trivial and probably non-idiomatic implementation of drawing
 a &ldquo;Christmas tree&rdquo; in ASCII to the console.</p>
-
 <div class="highlight"><pre class="chroma"><code class="language-fsharp" data-lang="fsharp"><span class="k">let</span> <span class="nv">rec</span> <span class="n">drawTreeOther</span> <span class="n">layer</span> <span class="n">height</span> <span class="o">=</span>
     <span class="k">if</span> <span class="n">layer</span> <span class="o">=</span> <span class="n">height</span> <span class="k">then</span>
-        <span class="n">printfn</span> <span class="s">&#34;%41s</span><span class="se">\n</span><span class="s">%41s&#34;</span> <span class="s">&#34;xx&#34;</span> <span class="s">&#34;xx&#34;</span>
+        <span class="n">printfn</span> <span class="s">&#34;</span><span class="s">%41s</span><span class="se">\n</span><span class="s">%41s</span><span class="s">&#34;</span> <span class="s">&#34;</span><span class="s">xx</span><span class="s">&#34;</span> <span class="s">&#34;</span><span class="s">xx</span><span class="s">&#34;</span>
     <span class="k">else</span>
         <span class="k">let</span> <span class="nv">w</span> <span class="o">=</span> <span class="o">(</span><span class="n">layer</span> <span class="o">+</span> <span class="n">1</span><span class="o">)</span> <span class="o">*</span> <span class="n">2</span>
-        <span class="n">printfn</span> <span class="s">&#34;%s%s&#34;</span> <span class="o">(</span><span class="nn">String</span><span class="p">.</span><span class="n">replicate</span> <span class="o">((</span><span class="n">80</span> <span class="o">-</span> <span class="n">w</span><span class="o">)</span> <span class="o">/</span> <span class="n">2</span><span class="o">)</span> <span class="s">&#34; &#34;</span><span class="o">)</span> <span class="o">(</span><span class="nn">String</span><span class="p">.</span><span class="n">replicate</span> <span class="n">w</span> <span class="s">&#34;x&#34;</span><span class="o">)</span>
+        <span class="n">printfn</span> <span class="s">&#34;</span><span class="s">%s%s</span><span class="s">&#34;</span> <span class="o">(</span><span class="nn">String</span><span class="p">.</span><span class="n">replicate</span> <span class="o">(</span><span class="o">(</span><span class="n">80</span> <span class="o">-</span> <span class="n">w</span><span class="o">)</span> <span class="o">/</span> <span class="n">2</span><span class="o">)</span> <span class="s">&#34;</span><span class="s"> </span><span class="s">&#34;</span><span class="o">)</span> <span class="o">(</span><span class="nn">String</span><span class="p">.</span><span class="n">replicate</span> <span class="n">w</span> <span class="s">&#34;</span><span class="s">x</span><span class="s">&#34;</span><span class="o">)</span>
         <span class="n">drawTreeOther</span> <span class="o">(</span><span class="n">layer</span> <span class="o">+</span> <span class="n">1</span><span class="o">)</span> <span class="n">height</span></code></pre></div>
-
 <p>And with that, we have something silly and useless and probably somehow very buggy. Enjoy!</p>
 
 			</div>
@@ -88,7 +83,7 @@ a &ldquo;Christmas tree&rdquo; in ASCII to the console.</p>
 		</article>
 	</main>
 	<footer>
-		<small>:| F# ASCII Tree |: 19 <strong>July</strong> 2018<span class="extra"> O0 Ii IL Il I1 l1 !? <strong>200</strong> () {}</span> 00:00:00</small> <span id="copyright"><small>&lt;&copy; 2018 <a href="https://ztj.io/">ZTJ.io</a>&gt;</small></span>
+		<small>:| F# ASCII Tree |: 19 <strong>July</strong> 2018<span class="extra"> O0 Ii IL Il I1 l1 !? <strong>200</strong> () {}</span> 00:00:00</small> <span id="copyright"><small>&lt;&copy; 2019 <a href="https://ztj.dev/">ZTJ.dev</a>&gt;</small></span>
 	</footer>
 </div>
 </body>
