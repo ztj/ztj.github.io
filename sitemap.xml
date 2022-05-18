@@ -1,48 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://ztj.dev/articles/</loc>
     <lastmod>2018-07-19T22:17:56-06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ztj.dev/bio/</loc>
     <lastmod>2018-07-19T22:17:56-06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ztj.dev/github/</loc>
     <lastmod>2018-07-19T22:17:56-06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ztj.dev/twitter/</loc>
     <lastmod>2018-07-19T22:17:56-06:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ztj.dev/articles/learn-go/</loc>
     <lastmod>2018-12-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ztj.dev/</loc>
     <lastmod>2018-12-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ztj.dev/articles/fs-tree/</loc>
     <lastmod>2018-07-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ztj.dev/categories/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ztj.dev/tags/</loc>
   </url>
-  
 </urlset>

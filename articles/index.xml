@@ -6,18 +6,14 @@
     <description>Recent content in Articles on ZTJ.dev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 19 Jul 2018 22:17:56 -0600</lastBuildDate>
-    
-	<atom:link href="https://ztj.dev/articles/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 19 Jul 2018 22:17:56 -0600</lastBuildDate><atom:link href="https://ztj.dev/articles/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Go, Learn Go, et al</title>
       <link>https://ztj.dev/articles/learn-go/</link>
       <pubDate>Sun, 02 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>https://ztj.dev/articles/learn-go/</guid>
-      <description>I&#39;ve decided to put a more serious effort into learning Go. As a first for me, I plan to try learning this language &amp;ldquo;out loud&amp;rdquo; so to speak, by publishing the sketches and test projects I create during that process. I&#39;m not sure if this will have any value long term, but, at the very least it may encourage me to review my work with more scrutiny. If so, then hopefully it will also improve my uptake speed.</description>
+      <description>I&amp;rsquo;ve decided to put a more serious effort into learning Go. As a first for me, I plan to try learning this language &amp;ldquo;out loud&amp;rdquo; so to speak, by publishing the sketches and test projects I create during that process. I&amp;rsquo;m not sure if this will have any value long term, but, at the very least it may encourage me to review my work with more scrutiny. If so, then hopefully it will also improve my uptake speed.</description>
     </item>
     
     <item>
@@ -26,9 +22,9 @@
       <pubDate>Thu, 19 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>https://ztj.dev/articles/fs-tree/</guid>
-      <description>Recently I&#39;ve found myself interested in learning a new programming language. Well, new to me anyway.
+      <description>Recently I&amp;rsquo;ve found myself interested in learning a new programming language. Well, new to me anyway.
 It has been a long time since any particular language both interested me enough to make me want to learn it and simultaneously provided enough immediate utility to allow me to make use of it in my daily work.
-So I&#39;ve just begun taking some baby steps into F#. I&#39;m primarily interested in the high degree of static analysis and type driven &amp;ldquo;safety&amp;rdquo; features it is capable of.</description>
+So I&amp;rsquo;ve just begun taking some baby steps into F#. I&amp;rsquo;m primarily interested in the high degree of static analysis and type driven &amp;ldquo;safety&amp;rdquo; features it is capable of.</description>
     </item>
     
   </channel>
