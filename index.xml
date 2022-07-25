@@ -6,16 +6,7 @@
     <description>Recent content on ZTJ.dev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 02 Dec 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://ztj.dev/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Go, Learn Go, et al</title>
-      <link>https://ztj.dev/articles/learn-go/</link>
-      <pubDate>Sun, 02 Dec 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://ztj.dev/articles/learn-go/</guid>
-      <description>I&amp;rsquo;ve decided to put a more serious effort into learning Go. As a first for me, I plan to try learning this language &amp;ldquo;out loud&amp;rdquo; so to speak, by publishing the sketches and test projects I create during that process. I&amp;rsquo;m not sure if this will have any value long term, but, at the very least it may encourage me to review my work with more scrutiny. If so, then hopefully it will also improve my uptake speed.</description>
-    </item>
-    
+    <lastBuildDate>Thu, 19 Jul 2018 22:17:56 -0600</lastBuildDate><atom:link href="https://ztj.dev/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>F# ASCII Tree</title>
       <link>https://ztj.dev/articles/fs-tree/</link>
