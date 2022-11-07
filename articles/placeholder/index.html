@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Placeholder // ZTJ.dev</title>
+	<meta name="description" content="Your basic web presence and playground. Don&#39;t expect much.">
+	<meta name="author" content="Zachery Jensen">
+	<link rel="stylesheet" href="https://ztj.dev/css/style.css">
+	<link rel="stylesheet" href="https://ztj.dev/css/syntax.css">
+	<meta name="generator" content="Hugo 0.105.0">
+</head>
+<body>
+	<div class="wrapper">
+	<header>
+		<div>
+			<h1 class="main-title">ZTJ</h1><h2 class="main-title">.dev</h2>
+			<span class="main-title">by Zachery Jensen</span>
+			<nav>
+				<ul>
+					<li><a href="https://ztj.dev/">Main</a></li>
+					
+					<li>
+						
+						<a href="/articles/">Articles</a>
+						
+					</li>
+					
+					<li>
+						
+						<a href="/bio/">Bio</a>
+						
+					</li>
+					
+					<li>
+						
+						<a target="_blank" href="https://github.com/ztj">GitHub</a>&twoheadrightarrow;
+						
+					</li>
+					
+					<li>
+						
+						<a target="_blank" href="https://twitter.com/ztjio">@ztjio</a>&twoheadrightarrow;
+						
+					</li>
+					
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<main>
+		<article>
+			<h2>Placeholder</h2>
+			<div>
+				<p>Just a placeholder. This site is comically neglected. Someday I&rsquo;ll fix that.</p>
+<p>For now, here&rsquo;s some random Rust code.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-rust" data-lang="rust"><span class="line"><span class="cl"><span class="c1">// Implicitly impl a trait for a type if it impls the trait&#39;s super traits via a blanket impl.
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="k">trait</span><span class="w"> </span><span class="n">SayYes</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="k">fn</span> <span class="nf">say_yes</span><span class="p">(</span><span class="o">&amp;</span><span class="bp">self</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="k">trait</span><span class="w"> </span><span class="n">SayNo</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="k">fn</span> <span class="nf">say_no</span><span class="p">(</span><span class="o">&amp;</span><span class="bp">self</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="k">trait</span><span class="w"> </span><span class="n">SayYesAndNo</span>: <span class="nc">SayYes</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">SayNo</span><span class="w"> </span><span class="p">{}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c1">// Comment this line out and the code won&#39;t compile due to SuffixedSayer missing a SayYesAndNo impl.
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="k">impl</span><span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;</span><span class="w"> </span><span class="n">SayYesAndNo</span><span class="w"> </span><span class="k">for</span><span class="w"> </span><span class="n">T</span><span class="w"> </span><span class="k">where</span><span class="w"> </span><span class="n">T</span>: <span class="nc">SayYes</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">SayNo</span><span class="w"> </span><span class="p">{}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="k">struct</span> <span class="nc">SuffixedSayer</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">suffix</span>: <span class="nb">String</span><span class="p">,</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="k">impl</span><span class="w"> </span><span class="n">SayYes</span><span class="w"> </span><span class="k">for</span><span class="w"> </span><span class="n">SuffixedSayer</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="k">fn</span> <span class="nf">say_yes</span><span class="p">(</span><span class="o">&amp;</span><span class="bp">self</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="fm">println!</span><span class="p">(</span><span class="s">&#34;Yes, {}&#34;</span><span class="p">,</span><span class="w"> </span><span class="bp">self</span><span class="p">.</span><span class="n">suffix</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="k">impl</span><span class="w"> </span><span class="n">SayNo</span><span class="w"> </span><span class="k">for</span><span class="w"> </span><span class="n">SuffixedSayer</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="k">fn</span> <span class="nf">say_no</span><span class="p">(</span><span class="o">&amp;</span><span class="bp">self</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="fm">println!</span><span class="p">(</span><span class="s">&#34;No, {} &#34;</span><span class="p">,</span><span class="w"> </span><span class="bp">self</span><span class="p">.</span><span class="n">suffix</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="k">fn</span> <span class="nf">induce_to_say</span><span class="o">&lt;</span><span class="n">T</span>: <span class="nc">SayYesAndNo</span><span class="o">&gt;</span><span class="p">(</span><span class="n">sayer</span>: <span class="nc">T</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">sayer</span><span class="p">.</span><span class="n">say_yes</span><span class="p">();</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">sayer</span><span class="p">.</span><span class="n">say_no</span><span class="p">();</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="k">fn</span> <span class="nf">main</span><span class="p">()</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kd">let</span><span class="w"> </span><span class="n">sayer</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">SuffixedSayer</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">suffix</span>: <span class="s">&#34;Sir&#34;</span><span class="p">.</span><span class="n">to_string</span><span class="p">(),</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="p">};</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">induce_to_say</span><span class="p">(</span><span class="n">sayer</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span></span></span></code></pre></div>
+
+			</div>
+			<div>
+				<ul id="tags">
+					
+				</ul>
+			</div>
+		</article>
+	</main>
+	<footer>
+		<small>:| Placeholder |: 07 <strong>November</strong> 2022<span class="extra"> O0 Ii IL Il I1 l1 !? <strong>311</strong> () {}</span> 00:00:00</small> <span id="copyright"><small>&lt;&copy; 2022 <a href="https://ztj.dev/">ZTJ.dev</a>&gt;</small></span>
+	</footer>
+</div>
+</body>
+</html>

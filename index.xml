@@ -6,16 +6,16 @@
     <description>Recent content on ZTJ.dev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 19 Jul 2018 22:17:56 -0600</lastBuildDate><atom:link href="https://ztj.dev/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 07 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://ztj.dev/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>F# ASCII Tree</title>
-      <link>https://ztj.dev/articles/fs-tree/</link>
-      <pubDate>Thu, 19 Jul 2018 00:00:00 +0000</pubDate>
+      <title>Placeholder</title>
+      <link>https://ztj.dev/articles/placeholder/</link>
+      <pubDate>Mon, 07 Nov 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://ztj.dev/articles/fs-tree/</guid>
-      <description>Recently I&amp;rsquo;ve found myself interested in learning a new programming language. Well, new to me anyway.
-It has been a long time since any particular language both interested me enough to make me want to learn it and simultaneously provided enough immediate utility to allow me to make use of it in my daily work.
-So I&amp;rsquo;ve just begun taking some baby steps into F#. I&amp;rsquo;m primarily interested in the high degree of static analysis and type driven &amp;ldquo;safety&amp;rdquo; features it is capable of.</description>
+      <guid>https://ztj.dev/articles/placeholder/</guid>
+      <description>Just a placeholder. This site is comically neglected. Someday I&amp;rsquo;ll fix that.
+For now, here&amp;rsquo;s some random Rust code.
+// Implicitly impl a trait for a type if it impls the trait&amp;#39;s super traits via a blanket impl. trait SayYes { fn say_yes(&amp;amp;self); } trait SayNo { fn say_no(&amp;amp;self); } trait SayYesAndNo: SayYes + SayNo {} // Comment this line out and the code won&amp;#39;t compile due to SuffixedSayer missing a SayYesAndNo impl.</description>
     </item>
     
   </channel>
