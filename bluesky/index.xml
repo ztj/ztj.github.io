@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>GitHub on ZTJ.dev</title>
-    <link>https://ztj.dev/github/</link>
-    <description>Recent content in GitHub on ZTJ.dev</description>
+    <title>@ztj.lol on ZTJ.dev</title>
+    <link>https://ztj.dev/bluesky/</link>
+    <description>Recent content in @ztj.lol on ZTJ.dev</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="https://ztj.dev/github/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ztj.dev/bluesky/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
